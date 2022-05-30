@@ -1,8 +1,12 @@
 package algorithms;
 
 /*
-Running time: O(n)^2
-Space: O(1)
+Time Complexity
+Best	O(n2)
+Worst	O(n2)
+Average	O(n2)
+Space Complexity	O(1)
+Stability	No
 
 The algorithm works by maintaining two sub-arrays - a sorted and an unsorted sub-array.
 After each completion of the inner loop, the smallest element of the unsorted sub-array is

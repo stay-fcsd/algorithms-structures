@@ -1,8 +1,13 @@
 package algorithms;
 
 /*
-Time complexity: O(n)^2
-Space: O(1)
+
+Time Complexity
+Best	O(n)
+Worst	O(n2)
+Average	O(n2)
+Space Complexity	O(1)
+Stability	Yes
 
 For sorting values in ascending order, the larger values are bubbleled to the right
 leaving the smaller values on the left. Resulting in elements being sorted from
