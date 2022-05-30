@@ -1,5 +1,14 @@
 package algorithms;
 
+/*
+Running time: O(n)^2
+Space: O(1)
+
+The algorithm works by maintaining two sub-arrays - a sorted and an unsorted sub-array.
+After each completion of the inner loop, the smallest element of the unsorted sub-array is
+added to the sorted sub-array.
+ */
+
 public class SelectionSort {
     public static void main(String[] args) {
 
