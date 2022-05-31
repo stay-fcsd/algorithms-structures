@@ -2,6 +2,17 @@ package algorithms;
 
 public class MergeSort {
 
+    /*
+
+    Time Complexity
+    Best	O(n*log n)
+    Worst	O(n*log n)
+    Average	O(n*log n)
+    Space Complexity	O(n)
+    Stability	Yes
+
+     */
+
     public static void main(String[] args) {
         int[] sorted = mergeSort(new int[]{1, 22, 2, 3, 10, 4, 8, 9});
 

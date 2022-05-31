@@ -1,5 +1,14 @@
 package algorithms;
 
+/*
+Time Complexity
+Best	O(n*log n)
+Worst	O(n2)
+Average	O(n*log n)
+Space Complexity	O(log n)
+Stability	No
+ */
+
 public class QuickSort {
 
     public static void main(String[] args) {
